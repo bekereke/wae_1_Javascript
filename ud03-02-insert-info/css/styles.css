@@ -1,0 +1,30 @@
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* 
+    flex kontenedore horizontala izan behar da eta edukia zentratuta agertu beharko da/
+    ha de ser un contenedor flex horizontal y con el contenido centrado*/
+    width: 90%;
+    height: 90vh;
+    background-color: DodgerBlue;
+}
+
+#flex-item {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 0.8em;
+    width: 250px;
+    box-sizing: border-box;
+    text-align: justify;
+    /* 
+    Bertikalki zentratuta agertu beharko da
+    ha de aparecer centrado verticalmente*/
+    
+
+}
+
+.logo {
+    max-width: 100%;
+}

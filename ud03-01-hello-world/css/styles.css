@@ -1,0 +1,11 @@
+body{
+    background-color: rgb(75, 36, 23);
+    color:white;
+}
+#divBanner{
+    width: 400px;
+    height: 200px;
+    background-color: rgb(221, 106, 30);
+    text-align: center;
+    margin: auto;
+}

@@ -1,0 +1,36 @@
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+    width: 50%;
+    height: 90vh;
+}
+
+#flex-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bold;
+    font-size:large;
+    background-color: rgba(244, 255, 40, 0.648);
+    margin: 10px;
+    padding: 20px;
+    width: 500px;
+    height: 300px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.flex-container > #flex-item > input {
+    font-family: inherit;
+    font-size: small;
+    width: 150px;
+}
+
+.flex-container > #flex-item > #buttonCities {
+    border: 2px dotted;
+}
