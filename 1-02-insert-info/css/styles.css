@@ -1,8 +1,9 @@
 .flex-container {
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
-    /* 
+    /*
     flex kontenedore horizontala izan behar da eta edukia zentratuta agertu beharko da/
     ha de ser un contenedor flex horizontal y con el contenido centrado*/
     width: 90%;
@@ -18,10 +19,10 @@
     width: 250px;
     box-sizing: border-box;
     text-align: justify;
-    /* 
+    /*
     Bertikalki zentratuta agertu beharko da
     ha de aparecer centrado verticalmente*/
-    
+
 
 }
 
