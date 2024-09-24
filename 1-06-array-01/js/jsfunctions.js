@@ -33,7 +33,8 @@ function myFirstArray() {
 
     console.log(jokalari1.length+ " partidu jokatu dira.");
 
-    for(let i=0; i<jokalariak.length; i++){
+    //MATRIZE BERTSIOA
+/*    for(let i=0; i<jokalariak.length; i++){
         let bb=0;
         for(let j=0; j<jokalari1.length; j++){
             bb=bb+jokalariak[i][j];
@@ -41,8 +42,32 @@ function myFirstArray() {
         console.log((i+1)+". jokalariaren batazbesteko puntuazioa: "+bb/jokalari1.length);
         bb_taldea=bb_taldea+bb/jokalari1.length;
     }
+*/
+    //MODU INTUITIBOA?
+    let bb=0;
+    for(let j=0; j<jokalari1.length; j++){
+        bb=bb+jokalari1[j];
 
-    console.log("Taldearen batazbesteko puntuazioa: "+bb_taldea/jokalariak.length);
+    }
+    bb_taldea=bb_taldea+bb;
+    console.log("1. jokalariaren batazbesteko puntuazioa: "+bb/jokalari1.length);
+    bb=0;
+
+    for(let j=0; j<jokalari2.length; j++){
+        bb=bb+jokalari2[j];
+    }
+    bb_taldea=bb_taldea+bb;
+    console.log("2. jokalariaren batazbesteko puntuazioa: "+bb/jokalari2.length);
+    bb=0;
+
+    for(let j=0; j<jokalari3.length; j++){
+        bb=bb+jokalari3[j];
+    }
+    bb_taldea=bb_taldea+bb;
+    console.log("3. jokalariaren batazbesteko puntuazioa: "+bb/jokalari3.length);
+    bb=0;
+
+    console.log("Taldearen batazbesteko puntuazioa: "+bb_taldea/18);
 
 }
 
