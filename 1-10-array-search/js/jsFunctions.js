@@ -6,9 +6,9 @@ document.addEventListener('DOMContentLoaded', function(event) {
 //-------------------------------------------------------------------------------------
 
 function bilaketa_sinple() {
-    var lista = new Array(7, 8, 9, 70, 9);
+    var lista = new Array(); 
     var arrPosizioak = new Array();
-    var zenbaki = 9;
+    var zenbaki;
     var myHtml="";
 
     zenbaki=document.getElementById('inNum').value;
@@ -19,7 +19,7 @@ function bilaketa_sinple() {
 
     for (var i = 0; i < lista.length; i++) {
         if (lista[i] == zenbaki) {
-            //arrPosizioak[arrPosizioak.length] = i;
+            //arrPosizioak[arrPosizioak.length+1] = i;
             arrPosizioak.push(i); 
         }
     }
